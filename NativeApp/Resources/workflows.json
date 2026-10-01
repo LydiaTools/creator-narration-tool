@@ -1,0 +1,559 @@
+{
+  "schema": 1,
+  "updated_at": "2026-10-01",
+  "source_thread_id": "01a0f512-7e8a-78e0-84e9-8a16baad2149",
+  "workflows": [
+    {
+      "id": "screen-demo",
+      "title": "实操录屏",
+      "summary": "讲软件和小工具：先看到完整界面，再看关键操作。",
+      "engine": "recording",
+      "script_structure": [
+        "具体麻烦",
+        "旧办法卡在哪",
+        "关键操作",
+        "可检查结果",
+        "回扣麻烦"
+      ],
+      "frame_recommendation": "horizontal",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/A1a-痛点直入实操.md",
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/工作流/W24-工具实录与操作教学.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/项目/sample-recording/录屏讲解-画面待审.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/流程预览/recording.jpg",
+      "preview_status": "silent_candidate",
+      "production_goals": [
+        "batch",
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "已有素材可省重录；实际耗时待本期测量。"
+      },
+      "min_inputs": [
+        "一句想法",
+        "真实操作录屏",
+        "本期配音"
+      ],
+      "preview_scope": "0.2.0真实录屏引擎试片，12秒无配音，待审。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "演示",
+      "keywords": [
+        "工具",
+        "软件",
+        "操作",
+        "演示",
+        "录屏",
+        "效率",
+        "网站",
+        "产品"
+      ]
+    },
+    {
+      "id": "real-montage",
+      "title": "真实素材混剪",
+      "summary": "讲真实场景：实拍问题，接操作和结果。",
+      "engine": "montage",
+      "script_structure": [
+        "真实场景",
+        "遇到什么问题",
+        "关键办法",
+        "实际结果",
+        "一句行动"
+      ],
+      "frame_recommendation": "vertical",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/工作流/W23-真人口播与原素材复用.md",
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/工作流/W03-真实口播视频生产.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/项目/sample-voiced-021/版本/v1790818679-F3A57A/本版视频待审.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/项目/sample-voiced-021/版本/v1790818679-F3A57A/封面首帧.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "batch",
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "已有素材可省重录；实际耗时待本期测量。"
+      },
+      "min_inputs": [
+        "一句想法",
+        "自有或授权素材",
+        "本期配音"
+      ],
+      "preview_scope": "0.2.1安装版一键合成8.67秒带声短样；第三段为授权原片静帧，完整视听审片待用户确认。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "演示",
+      "keywords": [
+        "素材",
+        "实拍",
+        "园艺",
+        "生活",
+        "场景",
+        "户外",
+        "混剪"
+      ]
+    },
+    {
+      "id": "screenshot-explainer",
+      "title": "截图讲解",
+      "summary": "讲资料和判断：看原图、圈重点、得出结论。",
+      "engine": "screenshot",
+      "script_structure": [
+        "一个具体问题",
+        "展示原始资料",
+        "指出关键位置",
+        "解释理由",
+        "给检查方法"
+      ],
+      "frame_recommendation": "horizontal",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/工作流/W28-贴纸拼贴与辅助镜头.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/检查/0.2.1/截图引擎技术试片.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/检查/0.2.1/截图引擎技术试片.jpg",
+      "preview_status": "silent_candidate",
+      "production_goals": [
+        "batch",
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "已有素材可省重录；实际耗时待本期测量。"
+      },
+      "min_inputs": [
+        "一句想法",
+        "有来源的图片或截图",
+        "本期配音"
+      ],
+      "preview_scope": "0.2.1新版引擎2秒技术试片，未配音，未做业务效果验收。",
+      "quality_note": "仅检查真实来源合成与尺寸；完整叙事、声音和手机可读性需本期审片。",
+      "genre": "讲解",
+      "keywords": [
+        "截图",
+        "资料",
+        "数据",
+        "分析",
+        "报告",
+        "研究",
+        "图表"
+      ]
+    },
+    {
+      "id": "before-after",
+      "title": "前后对比",
+      "summary": "讲哪种更好：在同样条件下放出真实差异。",
+      "engine": "comparison",
+      "script_structure": [
+        "可观察问题",
+        "旧方案与新方案",
+        "相同条件并排对比",
+        "有证据的原因",
+        "可照做的检查"
+      ],
+      "frame_recommendation": "horizontal",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/C1a-问题对比与避坑.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/检查/0.2.1/并排引擎技术试片.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/检查/0.2.1/并排引擎技术试片.jpg",
+      "preview_status": "silent_candidate",
+      "production_goals": [
+        "batch",
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定双画面合成；需要两份同条件素材，比单路多处理一份。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "还需核对对比条件；实际耗时待本期测量。"
+      },
+      "min_inputs": [
+        "一句想法",
+        "两份同条件真实素材",
+        "本期配音"
+      ],
+      "preview_scope": "0.2.1新版引擎2秒技术试片，未配音，未做业务效果验收。",
+      "quality_note": "仅检查真实来源合成与尺寸；完整叙事、声音和手机可读性需本期审片。",
+      "genre": "讲解",
+      "keywords": [
+        "对比",
+        "前后",
+        "区别",
+        "评测",
+        "哪个好",
+        "优化",
+        "提升",
+        "避坑"
+      ]
+    },
+    {
+      "id": "story-operation",
+      "title": "故事接操作",
+      "summary": "先让人认出自己的处境，再现场解决它。",
+      "engine": "recording",
+      "script_structure": [
+        "具体人物与情境",
+        "反差或冲突",
+        "工具真实操作",
+        "真实输入输出",
+        "回到人物变化"
+      ],
+      "frame_recommendation": "vertical",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/A1b-职场梗引入实操.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Users/macmini/Documents/ChatGPT/我的口播视频/outputs/shuorenhua-douyin-v5/说人话-抖音-v37-居中白黄大字版.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/流程预览/story-operation.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "情境与操作要对上；比直接讲操作多一道编排，实际耗时待测。"
+      },
+      "min_inputs": [
+        "一句想法",
+        "情境素材与真实操作",
+        "本期配音"
+      ],
+      "preview_scope": "历史叙事参考，不是新版引擎的效果保证。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "故事",
+      "keywords": [
+        "职场",
+        "老板",
+        "聊天",
+        "吐槽",
+        "沟通",
+        "故事",
+        "反差",
+        "情境"
+      ]
+    },
+    {
+      "id": "short-captions",
+      "title": "短字幕快片",
+      "summary": "公司批量短片：少说几句，只留真实动作和结果。",
+      "engine": "montage",
+      "script_structure": [
+        "一句短钩子",
+        "少数真实动作",
+        "结果证据",
+        "一个入口"
+      ],
+      "frame_recommendation": "vertical",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/A3a-短字幕卡点展示.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/2026-09-20-CoverCalcPro-围栏爆款二创/05-交付/CoverCalcPro-围栏爆款二创-英文竖屏审片版-v1.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/流程预览/english.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "batch"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "少镜头、少修饰；已有素材时适合批量，实际产出速度待测。"
+      },
+      "min_inputs": [
+        "产品一句话",
+        "少量真实短素材",
+        "短配音"
+      ],
+      "preview_scope": "CoverCalc Pro已有英文短片，展示短字幕节奏；不是公司旧TikTok缺失文件。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "演示",
+      "keywords": [
+        "批量",
+        "公司",
+        "推广",
+        "短片",
+        "快",
+        "TikTok",
+        "英文",
+        "卡点"
+      ]
+    },
+    {
+      "id": "employee-story",
+      "title": "数字员工办事",
+      "summary": "跟着一个员工，看一件任务怎样交付。",
+      "engine": "recording",
+      "script_structure": [
+        "先亮真实成果或风险",
+        "谁接到什么任务",
+        "处理过程",
+        "一两个真实证据",
+        "老板的下一步"
+      ],
+      "frame_recommendation": "horizontal",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/B1a-数字员工风险拦截故事.md",
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/B1b-数字员工结果交付故事.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Users/macmini/Documents/ChatGPT/我的口播视频/小燃选题员工-抖音视频号重拍/成片/小燃选题员工_抖音版_曼波讲故事.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/流程预览/employee-story.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "已有素材可省重录；实际耗时待本期测量。"
+      },
+      "min_inputs": [
+        "一件已执行任务",
+        "派单与结果录屏",
+        "本期配音"
+      ],
+      "preview_scope": "历史叙事参考，不是新版引擎的效果保证。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "故事",
+      "keywords": [
+        "员工",
+        "AI助手",
+        "自动化",
+        "团队",
+        "派单",
+        "任务",
+        "一人公司",
+        "成果"
+      ]
+    },
+    {
+      "id": "emotion-story",
+      "title": "人物故事",
+      "summary": "人的处境是主线，产品只帮助完成一个动作。",
+      "engine": "montage",
+      "script_structure": [
+        "具体人物困境",
+        "内在冲突",
+        "一次动作或新的提问",
+        "真实产品帮助",
+        "人的变化"
+      ],
+      "frame_recommendation": "vertical",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/B2a-情绪故事带入产品.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Users/macmini/Documents/Codex/2026-08-30/new-chat-4/outputs/fourth-video-v1/第四期视频-V3-女性共鸣-曼波讲故事-正式版.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/流程预览/emotion-story.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定剪辑，不调用视频模型；原片需自有或已授权。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "不用视频生成模型。",
+        "time": "已有素材可省重录；实际耗时待本期测量。"
+      },
+      "min_inputs": [
+        "一句想法",
+        "注明来源的故事与产品素材",
+        "本期配音"
+      ],
+      "preview_scope": "历史叙事参考，不是新版引擎的效果保证。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "故事",
+      "keywords": [
+        "共鸣",
+        "成长",
+        "情绪",
+        "选择",
+        "经历",
+        "人生",
+        "回声"
+      ]
+    },
+    {
+      "id": "whiteboard-map",
+      "title": "整图白板",
+      "summary": "讲清关系和逻辑：先看全图，再逐层展开。",
+      "engine": "whiteboard",
+      "script_structure": [
+        "中心问题",
+        "全局关系",
+        "逐层展开",
+        "证据或例子",
+        "可执行结论"
+      ],
+      "frame_recommendation": "vertical",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/视频方案/C2a-整张白板逐层讲解.md",
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/白板渲染入口与复用.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "ready",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/白板修复-2026-10-01/小宁子带声样片/配乐候选/A-轻电子-音乐清楚版-v2.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/白板修复-2026-10-01/小宁子带声样片/关键帧-01-0.2s.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "polished"
+      ],
+      "costs": {
+        "editing": "固定整图本地渲染；关系图可调整，人工审片仍需要。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "沿用已批准音轨或本地音色；生成时受内存保护。",
+        "video_model": "固定图形动画，不用视频生成模型。",
+        "time": "本机短样实测记录在白板修复报告。"
+      },
+      "min_inputs": [
+        "简短标题与关系说明",
+        "关系节点（最多四个）",
+        "本期已批准配音（完整包需要）"
+      ],
+      "preview_scope": "24.16秒公司经验库关系讲解；沿用小宁子配音与A轻电子v2候选，不是产品实录，配乐尚未选定。",
+      "quality_note": "竖屏关系链、固定几何与平滑运镜；已有带声候选，具体音色与配乐选择仍待用户确认。",
+      "genre": "讲解",
+      "keywords": [
+        "白板",
+        "关系",
+        "逻辑",
+        "原理",
+        "方法",
+        "手绘"
+      ]
+    },
+    {
+      "id": "english-version",
+      "title": "中文片改英文",
+      "summary": "保留已有画面，换英文稿、配音和字幕。",
+      "engine": "manual",
+      "script_structure": [
+        "核对已完成中文片",
+        "按意思重写英文",
+        "配音与时长对应",
+        "复用原画面",
+        "字幕与发布包"
+      ],
+      "frame_recommendation": "platform",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/工作流/W04-视频出海 Stable3.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "manual",
+      "preview_file": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/2026-09-20-CoverCalcPro-围栏爆款二创/05-交付/CoverCalcPro-围栏爆款二创-英文竖屏审片版-v1.mp4",
+      "thumbnail_path": "/Volumes/Obsidian知识库/Codex工作运行/10_视频进行中/口播制作/流程预览/english.jpg",
+      "preview_status": "voiced_candidate",
+      "production_goals": [
+        "batch",
+        "polished"
+      ],
+      "costs": {
+        "editing": "保留原画面，沿用现有出海脚本。",
+        "writing": "翻译与改写按实际模型记录，金额未知。",
+        "voice": "英文音色生成及平台费用按实测记录。",
+        "video_model": "不重生成画面；外部配音流程单独核价。",
+        "time": "尚未接一键；实际处理速度以原工作流记录为准。"
+      },
+      "min_inputs": [
+        "完整中文片",
+        "对应中文稿",
+        "已授权英文音色"
+      ],
+      "preview_scope": "CoverCalc Pro英文表达效果参考；不是Stable3加工链的验收证明。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "演示",
+      "unavailable_reason": "Stable3已有独立工作流；尚未接进本应用一键按钮。",
+      "keywords": [
+        "出海",
+        "英文版",
+        "中文转英文",
+        "YouTube",
+        "翻译",
+        "海外"
+      ]
+    },
+    {
+      "id": "cartoon-presenter",
+      "title": "卡通角色口播",
+      "summary": "需要角色出镜时，先检验动作、耳朵和口型。",
+      "engine": "manual",
+      "script_structure": [
+        "人物开场",
+        "一句要讲的内容",
+        "配音驱动口型",
+        "动作与情绪",
+        "真实结果"
+      ],
+      "frame_recommendation": "vertical",
+      "source_paths": [
+        "/Users/macmini/Documents/Codex/2026-09-07/new-chat/outputs/经营与工作流/工作流/W29-数字人与混合出镜.md"
+      ],
+      "voice_hint": "优先沿用本期已批准音轨；小宁子、Kelly等按音色档案选。",
+      "availability": "experiment",
+      "preview_file": "",
+      "thumbnail_path": "",
+      "preview_status": "not_available",
+      "production_goals": [
+        "polished"
+      ],
+      "costs": {
+        "editing": "角色编排、口型与动作验收；当前未接通。",
+        "writing": "Luna按需写稿；本期账单金额待记录。",
+        "voice": "本期已授权音色，合成后逐句试听。",
+        "video_model": "候选服务或模型费用未测，不称免费。",
+        "time": "先做8至12秒短样，当前耗时未知。"
+      },
+      "min_inputs": [
+        "自有或授权角色",
+        "本期配音",
+        "动作编排"
+      ],
+      "preview_scope": "历史叙事参考，不是新版引擎的效果保证。",
+      "quality_note": "新主题先做短样；声音、动作和字幕逐句审看。",
+      "genre": "故事",
+      "unavailable_reason": "角色动作与口型仍在试验，尚无本工具合格样片，不列为稳定一键。",
+      "keywords": [
+        "卡通",
+        "动画人偶",
+        "嘴型",
+        "口型",
+        "耳朵",
+        "数字人",
+        "萨了叭吉"
+      ]
+    }
+  ]
+}

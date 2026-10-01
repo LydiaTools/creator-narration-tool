@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "maxLength": 18
+          },
+          "body": {
+            "type": "string",
+            "maxLength": 32
+          },
+          "highlight": {
+            "type": "string",
+            "maxLength": 24
+          },
+          "narration": {
+            "type": "string"
+          },
+          "layout": {
+            "type": "string",
+            "enum": [
+              "hero",
+              "flow",
+              "loop",
+              "compare",
+              "statement"
+            ]
+          },
+          "items": {
+            "type": "array",
+            "minItems": 0,
+            "maxItems": 4,
+            "items": {
+              "type": "string",
+              "maxLength": 12
+            }
+          }
+        },
+        "required": [
+          "title",
+          "body",
+          "highlight",
+          "narration",
+          "layout",
+          "items"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "title",
+    "audience",
+    "problem",
+    "product",
+    "scenes"
+  ],
+  "additionalProperties": false
+}

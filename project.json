@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "一个人做产品，视频先别等素材库建完",
+    "slug": "solo-creator-whiteboard-pilot",
+    "created_at": "2026-09-30",
+    "footer_tag": "一人公司 · 制作流程小样",
+    "status": "visual_prototype_only"
+  },
+  "render": {
+    "visual_principle": "precomposed_document_plus_semantic_camera_plus_sparse_annotations",
+    "density": "dongxuan_dense_v2",
+    "style_preset": "dongxuan_dense_v2"
+  },
+  "style": {
+    "accent": "#d82828",
+    "ink": "#151515",
+    "muted": "#6a6a6a",
+    "line": "#d7d7d7",
+    "soft": "#f7f7f7",
+    "paper": "#ffffff",
+    "outside": "#eeeeee"
+  },
+  "script": {
+    "voiceover": "一个人做产品，还要自己做视频，最费时间的，是每次都从零开始。先选要讲给谁听，再挑一条值得研究的对标，拆的是结构，不是照搬文案。没有录屏，就先用白板讲清问题和做法。等真实操作有了，再把关键镜头换进去。这样每做一期，文案、音色和素材都能留下来，下次直接复用。"
+  },
+  "screens": [
+    {
+      "step": 1,
+      "layout": "hero",
+      "kicker": "一人公司做内容",
+      "title": "视频别每次从零做",
+      "body": "做产品、做运营，还要自己做视频",
+      "highlight": "先把流程接顺",
+      "items": [],
+      "duration_seconds": 5.0,
+      "sync_phrase": "最费时间的，是每次都从零开始"
+    },
+    {
+      "step": 2,
+      "layout": "flow",
+      "kicker": "第一步 · 想清楚讲什么",
+      "title": "对标拆结构，不照搬",
+      "body": "先定观众，再定本期问题",
+      "highlight": "结构可以学，经历必须真实",
+      "items": ["目标观众", "对标结构", "自己的证据"],
+      "duration_seconds": 5.0,
+      "sync_phrase": "拆的是结构，不是照搬文案"
+    },
+    {
+      "step": 3,
+      "layout": "compare",
+      "kicker": "第二步 · 画面怎么来",
+      "title": "没录屏，也能先出样片",
+      "body": "用白板讲清问题；有真实操作再替换",
+      "highlight": "白板解释 + 真实操作",
+      "items": ["暂时没有录屏", "先做白板动画", "录到真实操作", "替换关键镜头"],
+      "duration_seconds": 5.0,
+      "sync_phrase": "没有录屏，就先用白板讲清问题和做法"
+    },
+    {
+      "step": 4,
+      "layout": "loop",
+      "kicker": "第三步 · 越做越省事",
+      "title": "每一期都留下一点资产",
+      "body": "文案、音色、素材、复盘，下一期直接调用",
+      "highlight": "作品做完，方法留下",
+      "items": ["本期脚本", "授权音色", "真实素材", "数据复盘"],
+      "duration_seconds": 5.0,
+      "sync_phrase": "下次直接复用"
+    }
+  ]
+}

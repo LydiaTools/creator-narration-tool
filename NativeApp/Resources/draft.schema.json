@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "scenes": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "highlight": {
+            "type": "string"
+          },
+          "narration": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "body",
+          "highlight",
+          "narration"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "title",
+    "audience",
+    "problem",
+    "product",
+    "scenes"
+  ],
+  "additionalProperties": false
+}
