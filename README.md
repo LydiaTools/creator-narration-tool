@@ -1,4 +1,4 @@
-# 口播制作
+# Creator Narration Tool
 
 独立的 Mac 本地应用。按“写文字 → 做画面 → 配声音”制作口播视频。
 
